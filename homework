@@ -1,0 +1,64 @@
+Biggest smallest average
+
+numsList = [7, 6, 23, 8.18, 18, 8, 7.2, 85, 915, 12]
+print(max(numsList))
+print(min(numsList))
+
+total = sum(numsList)
+avg = total/len(numsList)
+
+print(avg)
+bigpos = numsList.index(915)
+print(bigpos+1)
+lilpos = numsList.index(6)
+print(lilpos+1)
+
+Same start and end, skipped because I dunno what to do
+
+lists = ["abc", "123", "2332", "aBBA", "heelloo", "1212", "DcEfD"]
+o = 0
+amount = 0
+for i in range (len(lists)):
+    if lists[o][0].lower() == lists[o][-1].lower():
+        amount += 1
+        o += 1
+    else:
+        amount += 0
+        o += 1
+
+print("amount of stuff:", amount)
+
+
+I like pesto
+count = 0
+FoodList = []
+
+for num in range (0, 8):
+    food = input ("What is your favourite food?").lower()
+    if food == "pesto":
+        count += 1
+    else:
+        FoodList.append(food)
+    
+print(count, "people like pesto")
+for num in range (count):
+    print("I like pesto")
+
+
+
+Cereal
+
+
+cerealList = []
+
+while True:
+    cereal = input("Enter Cereal: ")
+    if cereal.lower() == 'sultana and bran' or cereal.lower() == 'weetbix':
+        break
+    else:
+        cerealList.append(cereal)
+
+print(cerealList)
+
+
+
